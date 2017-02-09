@@ -3,7 +3,7 @@
 #tervitusskript
 #
 echo -n "Tere, " #väljasta ilma reavahetuseta Tere,
-echo -n "user" #väljasta ilma reavahetuseta User
-echo "!" #väljasta ! ja tee reavahetus
+who am i | cut -c1 | tr [:lower:] [:upper:] #lõika esimene täht ja muuda suureks
+echo "!"
 #
 # skripti lõpp
